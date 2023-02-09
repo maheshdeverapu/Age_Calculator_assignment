@@ -1,0 +1,58 @@
+.main_container{
+    width: 40%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 100px;
+    background-color: rgb(39,130,227);
+  
+}
+.name{
+    /* background-color: white; */
+}
+.name>h1{
+    color: rgb(0, 0, 175);
+}
+.content{
+    position: relative;
+    top: 30px;
+    width: 60%;
+    height: 80%;
+    /* margin-top: 10px; */
+    margin: auto;
+    /* margin-top: 300px; */
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.content_input{
+    display: flex;
+    flex-direction: row;
+}
+
+.content_input_one,.content_input_two,.content_input_three{
+    align-self: center;
+    justify-content: space-around;
+    /* gap: 20px; */
+    padding: 10px;
+}
+.content_input_one > input,.content_input_two>input,.content_input_three>input{
+width: 80px;
+height: 30px;
+border: 2px solid skyblue;
+align-self: center;
+gap: 20px;
+
+}
+.submit{
+    background-color: rgb(39,130,227);
+    height: 30px;
+    width: 80px;
+    border: 0px;
+    color: white;
+}
+.notFilled{
+    color: rgb(0, 0, 155);
+}
